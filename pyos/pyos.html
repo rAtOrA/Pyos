@@ -27,7 +27,14 @@
 <div id="link">
 <a href="https://www.youtube.com/channel/UCn5y-AvYpfGgIulVGGvXKdw">Зайди на этот канал. Самые пёсные видео!</a>
 </div>
+<button onclick="myFunction()">Try it</button>
 <script>
+function myFunction() {
+    var x = document.createElement("BUTTON");
+    var t = document.createTextNode("Click me");
+    x.appendChild(t);
+    document.body.appendChild(x);
+}
 var a = 0;
 var test = function()
 {
